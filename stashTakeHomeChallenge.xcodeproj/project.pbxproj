@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7B7437B33EDFD7DA6D3828 /* libPods-stashTakeHomeChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8279590D440FB3908A8B14 /* libPods-stashTakeHomeChallengeUITests.a */; };
+		4432233B20FE54CD00522F25 /* AchievementListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432233A20FE54CD00522F25 /* AchievementListViewControllerTests.swift */; };
+		4432233D20FEB03200522F25 /* LevelCollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432233C20FEB03200522F25 /* LevelCollectionViewCellTests.swift */; };
+		4432234020FECC7500522F25 /* AchievementListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432233F20FECC7500522F25 /* AchievementListPresenterTests.swift */; };
+		4432234320FECD6800522F25 /* AchieveListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432234220FECD6800522F25 /* AchieveListPresenter.swift */; };
+		4432234620FF884F00522F25 /* AchievementListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432234520FF884F00522F25 /* AchievementListWireframe.swift */; };
+		446B2C0020F7A41B00CDE450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2BFF20F7A41B00CDE450 /* AppDelegate.swift */; };
+		446B2C0520F7A41B00CDE450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B2C0320F7A41B00CDE450 /* Main.storyboard */; };
+		446B2C0720F7A41B00CDE450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446B2C0620F7A41B00CDE450 /* Assets.xcassets */; };
+		446B2C0A20F7A41B00CDE450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B2C0820F7A41B00CDE450 /* LaunchScreen.storyboard */; };
+		446B2C1520F7A41C00CDE450 /* stashTakeHomeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C1420F7A41C00CDE450 /* stashTakeHomeChallengeTests.swift */; };
+		446B2C2020F7A41C00CDE450 /* stashTakeHomeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C1F20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.swift */; };
+		446B2C2F20F7A8F900CDE450 /* AchievementListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C2E20F7A8F900CDE450 /* AchievementListViewController.swift */; };
+		446B2C3120F7AD6700CDE450 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C3020F7AD6700CDE450 /* LevelCollectionViewCell.swift */; };
+		446B2C3320F7AE0000CDE450 /* AchievementLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C3220F7AE0000CDE450 /* AchievementLevel.swift */; };
+		446B2C3520F7F0D300CDE450 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C3420F7F0D300CDE450 /* Protocols.swift */; };
+		446B2C3720F811E600CDE450 /* AchieveListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C3620F811E600CDE450 /* AchieveListInteractor.swift */; };
+		446B2C3A20F828B900CDE450 /* RemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C3920F828B900CDE450 /* RemoteDataManager.swift */; };
+		446B2C4320F835C400CDE450 /* RemoteDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C4220F835C400CDE450 /* RemoteDataManagerTests.swift */; };
+		446B2C4520F84FEE00CDE450 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = 446B2C4420F84FEE00CDE450 /* achievements.json */; };
+		446B2C4720F99E4F00CDE450 /* AchievementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2C4620F99E4F00CDE450 /* AchievementTests.swift */; };
+		44E0EBE520FFBB8800C97A6B /* LevelCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0EBE420FFBB8800C97A6B /* LevelCircleView.swift */; };
+		CC4272E6AA4432AB860917E3 /* Pods_stashTakeHomeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AC44B20C0F96FC38FE9245 /* Pods_stashTakeHomeChallenge.framework */; };
+		DC41BDA24ED6D2A9E71F260D /* libPods-stashTakeHomeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E57D9C1676C2B884AE7A7752 /* libPods-stashTakeHomeChallengeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446B2C1120F7A41C00CDE450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446B2BF420F7A41B00CDE450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446B2BFB20F7A41B00CDE450;
+			remoteInfo = stashTakeHomeChallenge;
+		};
+		446B2C1C20F7A41C00CDE450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446B2BF420F7A41B00CDE450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446B2BFB20F7A41B00CDE450;
+			remoteInfo = stashTakeHomeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12042DA19923EC6109E3189D /* Pods-stashTakeHomeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallengeTests/Pods-stashTakeHomeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		20F6173CF4344AB74286B284 /* Pods-stashTakeHomeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallengeTests/Pods-stashTakeHomeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCBA6ABDE246B9DD950B588 /* Pods-stashTakeHomeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallenge/Pods-stashTakeHomeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		42C53BBDB11C2AD7C9E4FFE2 /* Pods-stashTakeHomeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallengeUITests/Pods-stashTakeHomeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4432233A20FE54CD00522F25 /* AchievementListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementListViewControllerTests.swift; path = ViewTests/AchievementListViewControllerTests.swift; sourceTree = "<group>"; };
+		4432233C20FEB03200522F25 /* LevelCollectionViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelCollectionViewCellTests.swift; path = ViewTests/LevelCollectionViewCellTests.swift; sourceTree = "<group>"; };
+		4432233F20FECC7500522F25 /* AchievementListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementListPresenterTests.swift; path = PresenterTests/AchievementListPresenterTests.swift; sourceTree = "<group>"; };
+		4432234220FECD6800522F25 /* AchieveListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchieveListPresenter.swift; path = Presenter/AchieveListPresenter.swift; sourceTree = "<group>"; };
+		4432234520FF884F00522F25 /* AchievementListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementListWireframe.swift; path = Wireframe/AchievementListWireframe.swift; sourceTree = "<group>"; };
+		446B2BFC20F7A41B00CDE450 /* stashTakeHomeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stashTakeHomeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B2BFF20F7A41B00CDE450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		446B2C0420F7A41B00CDE450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446B2C0620F7A41B00CDE450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446B2C0920F7A41B00CDE450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446B2C0B20F7A41C00CDE450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446B2C1020F7A41C00CDE450 /* stashTakeHomeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stashTakeHomeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B2C1420F7A41C00CDE450 /* stashTakeHomeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stashTakeHomeChallengeTests.swift; sourceTree = "<group>"; };
+		446B2C1620F7A41C00CDE450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446B2C1B20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stashTakeHomeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B2C1F20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stashTakeHomeChallengeUITests.swift; sourceTree = "<group>"; };
+		446B2C2120F7A41C00CDE450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446B2C2E20F7A8F900CDE450 /* AchievementListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AchievementListViewController.swift; path = Views/AchievementListViewController.swift; sourceTree = "<group>"; };
+		446B2C3020F7AD6700CDE450 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LevelCollectionViewCell.swift; path = Views/LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		446B2C3220F7AE0000CDE450 /* AchievementLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AchievementLevel.swift; path = Entity/AchievementLevel.swift; sourceTree = "<group>"; };
+		446B2C3420F7F0D300CDE450 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		446B2C3620F811E600CDE450 /* AchieveListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AchieveListInteractor.swift; path = Interactor/AchieveListInteractor.swift; sourceTree = "<group>"; };
+		446B2C3920F828B900CDE450 /* RemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDataManager.swift; path = Networking/RemoteDataManager.swift; sourceTree = "<group>"; };
+		446B2C4220F835C400CDE450 /* RemoteDataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataManagerTests.swift; sourceTree = "<group>"; };
+		446B2C4420F84FEE00CDE450 /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievements.json; sourceTree = "<group>"; };
+		446B2C4620F99E4F00CDE450 /* AchievementTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AchievementTests.swift; path = AchieveListTests/AchievementTests.swift; sourceTree = "<group>"; };
+		44E0EBE420FFBB8800C97A6B /* LevelCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelCircleView.swift; path = Views/LevelCircleView.swift; sourceTree = "<group>"; };
+		BF548105E7D148C849180C28 /* Pods-stashTakeHomeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallengeUITests/Pods-stashTakeHomeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C85CCCB5BD4DEEC250627998 /* Pods-stashTakeHomeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stashTakeHomeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stashTakeHomeChallenge/Pods-stashTakeHomeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8279590D440FB3908A8B14 /* libPods-stashTakeHomeChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stashTakeHomeChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57D9C1676C2B884AE7A7752 /* libPods-stashTakeHomeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stashTakeHomeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AC44B20C0F96FC38FE9245 /* Pods_stashTakeHomeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stashTakeHomeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446B2BF920F7A41B00CDE450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4272E6AA4432AB860917E3 /* Pods_stashTakeHomeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C0D20F7A41C00CDE450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC41BDA24ED6D2A9E71F260D /* libPods-stashTakeHomeChallengeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C1820F7A41C00CDE450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7B7437B33EDFD7DA6D3828 /* libPods-stashTakeHomeChallengeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184C3EE05169EED51325FCCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AC44B20C0F96FC38FE9245 /* Pods_stashTakeHomeChallenge.framework */,
+				E57D9C1676C2B884AE7A7752 /* libPods-stashTakeHomeChallengeTests.a */,
+				CF8279590D440FB3908A8B14 /* libPods-stashTakeHomeChallengeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		442B6BAD210118CB000391EC /* NetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C4220F835C400CDE450 /* RemoteDataManagerTests.swift */,
+			);
+			name = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		4432233920FE541400522F25 /* ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4432233A20FE54CD00522F25 /* AchievementListViewControllerTests.swift */,
+				4432233C20FEB03200522F25 /* LevelCollectionViewCellTests.swift */,
+			);
+			name = ViewTests;
+			sourceTree = "<group>";
+		};
+		4432233E20FECBF700522F25 /* PresenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4432233F20FECC7500522F25 /* AchievementListPresenterTests.swift */,
+			);
+			name = PresenterTests;
+			sourceTree = "<group>";
+		};
+		4432234120FECCA800522F25 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				4432234220FECD6800522F25 /* AchieveListPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		4432234420FF881400522F25 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				4432234520FF884F00522F25 /* AchievementListWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		446B2BF320F7A41B00CDE450 = {
+			isa = PBXGroup;
+			children = (
+				446B2BFE20F7A41B00CDE450 /* stashTakeHomeChallenge */,
+				446B2C1320F7A41C00CDE450 /* stashTakeHomeChallengeTests */,
+				446B2C1E20F7A41C00CDE450 /* stashTakeHomeChallengeUITests */,
+				446B2BFD20F7A41B00CDE450 /* Products */,
+				EBE6CB267F3168C2DF0FD2FD /* Pods */,
+				184C3EE05169EED51325FCCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		446B2BFD20F7A41B00CDE450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446B2BFC20F7A41B00CDE450 /* stashTakeHomeChallenge.app */,
+				446B2C1020F7A41C00CDE450 /* stashTakeHomeChallengeTests.xctest */,
+				446B2C1B20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446B2BFE20F7A41B00CDE450 /* stashTakeHomeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				446B2BFF20F7A41B00CDE450 /* AppDelegate.swift */,
+				446B2C3420F7F0D300CDE450 /* Protocols.swift */,
+				446B2C2D20F7A89800CDE450 /* AchieveList */,
+				4432234420FF881400522F25 /* Wireframe */,
+				446B2C3E20F831AC00CDE450 /* Networking */,
+				446B2C3F20F831C900CDE450 /* Views */,
+				446B2C0320F7A41B00CDE450 /* Main.storyboard */,
+				446B2C4420F84FEE00CDE450 /* achievements.json */,
+				446B2C0620F7A41B00CDE450 /* Assets.xcassets */,
+				446B2C0820F7A41B00CDE450 /* LaunchScreen.storyboard */,
+				446B2C0B20F7A41C00CDE450 /* Info.plist */,
+			);
+			path = stashTakeHomeChallenge;
+			sourceTree = "<group>";
+		};
+		446B2C1320F7A41C00CDE450 /* stashTakeHomeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C1420F7A41C00CDE450 /* stashTakeHomeChallengeTests.swift */,
+				4432233920FE541400522F25 /* ViewTests */,
+				442B6BAD210118CB000391EC /* NetworkingTests */,
+				446B2C3820F8236D00CDE450 /* AchieveListTests */,
+				446B2C1620F7A41C00CDE450 /* Info.plist */,
+			);
+			path = stashTakeHomeChallengeTests;
+			sourceTree = "<group>";
+		};
+		446B2C1E20F7A41C00CDE450 /* stashTakeHomeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C1F20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.swift */,
+				446B2C2120F7A41C00CDE450 /* Info.plist */,
+			);
+			path = stashTakeHomeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		446B2C2D20F7A89800CDE450 /* AchieveList */ = {
+			isa = PBXGroup;
+			children = (
+				4432234120FECCA800522F25 /* Presenters */,
+				446B2C4020F831E100CDE450 /* Entities */,
+				446B2C4120F831F000CDE450 /* Interactors */,
+			);
+			name = AchieveList;
+			sourceTree = "<group>";
+		};
+		446B2C3820F8236D00CDE450 /* AchieveListTests */ = {
+			isa = PBXGroup;
+			children = (
+				4432233E20FECBF700522F25 /* PresenterTests */,
+				446B2C4620F99E4F00CDE450 /* AchievementTests.swift */,
+			);
+			name = AchieveListTests;
+			sourceTree = "<group>";
+		};
+		446B2C3E20F831AC00CDE450 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C3920F828B900CDE450 /* RemoteDataManager.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		446B2C3F20F831C900CDE450 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C2E20F7A8F900CDE450 /* AchievementListViewController.swift */,
+				446B2C3020F7AD6700CDE450 /* LevelCollectionViewCell.swift */,
+				44E0EBE420FFBB8800C97A6B /* LevelCircleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		446B2C4020F831E100CDE450 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C3220F7AE0000CDE450 /* AchievementLevel.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		446B2C4120F831F000CDE450 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				446B2C3620F811E600CDE450 /* AchieveListInteractor.swift */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		EBE6CB267F3168C2DF0FD2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C85CCCB5BD4DEEC250627998 /* Pods-stashTakeHomeChallenge.debug.xcconfig */,
+				2CCBA6ABDE246B9DD950B588 /* Pods-stashTakeHomeChallenge.release.xcconfig */,
+				20F6173CF4344AB74286B284 /* Pods-stashTakeHomeChallengeTests.debug.xcconfig */,
+				12042DA19923EC6109E3189D /* Pods-stashTakeHomeChallengeTests.release.xcconfig */,
+				BF548105E7D148C849180C28 /* Pods-stashTakeHomeChallengeUITests.debug.xcconfig */,
+				42C53BBDB11C2AD7C9E4FFE2 /* Pods-stashTakeHomeChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446B2BFB20F7A41B00CDE450 /* stashTakeHomeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B2C2420F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallenge" */;
+			buildPhases = (
+				22E8BF6A1B94A8E97EB57EC7 /* [CP] Check Pods Manifest.lock */,
+				446B2BF820F7A41B00CDE450 /* Sources */,
+				446B2BF920F7A41B00CDE450 /* Frameworks */,
+				446B2BFA20F7A41B00CDE450 /* Resources */,
+				DC2556458E67C3E30ED00843 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stashTakeHomeChallenge;
+			productName = stashTakeHomeChallenge;
+			productReference = 446B2BFC20F7A41B00CDE450 /* stashTakeHomeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		446B2C0F20F7A41C00CDE450 /* stashTakeHomeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B2C2720F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallengeTests" */;
+			buildPhases = (
+				A47C44A7E8997FE6EDCB463C /* [CP] Check Pods Manifest.lock */,
+				446B2C0C20F7A41C00CDE450 /* Sources */,
+				446B2C0D20F7A41C00CDE450 /* Frameworks */,
+				446B2C0E20F7A41C00CDE450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446B2C1220F7A41C00CDE450 /* PBXTargetDependency */,
+			);
+			name = stashTakeHomeChallengeTests;
+			productName = stashTakeHomeChallengeTests;
+			productReference = 446B2C1020F7A41C00CDE450 /* stashTakeHomeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		446B2C1A20F7A41C00CDE450 /* stashTakeHomeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B2C2A20F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallengeUITests" */;
+			buildPhases = (
+				83CD20D0CDBD0699E0D562AB /* [CP] Check Pods Manifest.lock */,
+				446B2C1720F7A41C00CDE450 /* Sources */,
+				446B2C1820F7A41C00CDE450 /* Frameworks */,
+				446B2C1920F7A41C00CDE450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446B2C1D20F7A41C00CDE450 /* PBXTargetDependency */,
+			);
+			name = stashTakeHomeChallengeUITests;
+			productName = stashTakeHomeChallengeUITests;
+			productReference = 446B2C1B20F7A41C00CDE450 /* stashTakeHomeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446B2BF420F7A41B00CDE450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eugene Mammie";
+				TargetAttributes = {
+					446B2BFB20F7A41B00CDE450 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+					446B2C0F20F7A41C00CDE450 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 446B2BFB20F7A41B00CDE450;
+					};
+					446B2C1A20F7A41C00CDE450 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 446B2BFB20F7A41B00CDE450;
+					};
+				};
+			};
+			buildConfigurationList = 446B2BF720F7A41B00CDE450 /* Build configuration list for PBXProject "stashTakeHomeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 446B2BF320F7A41B00CDE450;
+			productRefGroup = 446B2BFD20F7A41B00CDE450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446B2BFB20F7A41B00CDE450 /* stashTakeHomeChallenge */,
+				446B2C0F20F7A41C00CDE450 /* stashTakeHomeChallengeTests */,
+				446B2C1A20F7A41C00CDE450 /* stashTakeHomeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446B2BFA20F7A41B00CDE450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B2C0A20F7A41B00CDE450 /* LaunchScreen.storyboard in Resources */,
+				446B2C4520F84FEE00CDE450 /* achievements.json in Resources */,
+				446B2C0720F7A41B00CDE450 /* Assets.xcassets in Resources */,
+				446B2C0520F7A41B00CDE450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C0E20F7A41C00CDE450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C1920F7A41C00CDE450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22E8BF6A1B94A8E97EB57EC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stashTakeHomeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CD20D0CDBD0699E0D562AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stashTakeHomeChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47C44A7E8997FE6EDCB463C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stashTakeHomeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2556458E67C3E30ED00843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-stashTakeHomeChallenge/Pods-stashTakeHomeChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stashTakeHomeChallenge/Pods-stashTakeHomeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446B2BF820F7A41B00CDE450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B2C3520F7F0D300CDE450 /* Protocols.swift in Sources */,
+				446B2C3120F7AD6700CDE450 /* LevelCollectionViewCell.swift in Sources */,
+				446B2C2F20F7A8F900CDE450 /* AchievementListViewController.swift in Sources */,
+				4432234620FF884F00522F25 /* AchievementListWireframe.swift in Sources */,
+				446B2C3320F7AE0000CDE450 /* AchievementLevel.swift in Sources */,
+				446B2C3720F811E600CDE450 /* AchieveListInteractor.swift in Sources */,
+				446B2C3A20F828B900CDE450 /* RemoteDataManager.swift in Sources */,
+				44E0EBE520FFBB8800C97A6B /* LevelCircleView.swift in Sources */,
+				4432234320FECD6800522F25 /* AchieveListPresenter.swift in Sources */,
+				446B2C0020F7A41B00CDE450 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C0C20F7A41C00CDE450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B2C4720F99E4F00CDE450 /* AchievementTests.swift in Sources */,
+				446B2C1520F7A41C00CDE450 /* stashTakeHomeChallengeTests.swift in Sources */,
+				4432233D20FEB03200522F25 /* LevelCollectionViewCellTests.swift in Sources */,
+				4432233B20FE54CD00522F25 /* AchievementListViewControllerTests.swift in Sources */,
+				4432234020FECC7500522F25 /* AchievementListPresenterTests.swift in Sources */,
+				446B2C4320F835C400CDE450 /* RemoteDataManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B2C1720F7A41C00CDE450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B2C2020F7A41C00CDE450 /* stashTakeHomeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446B2C1220F7A41C00CDE450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446B2BFB20F7A41B00CDE450 /* stashTakeHomeChallenge */;
+			targetProxy = 446B2C1120F7A41C00CDE450 /* PBXContainerItemProxy */;
+		};
+		446B2C1D20F7A41C00CDE450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446B2BFB20F7A41B00CDE450 /* stashTakeHomeChallenge */;
+			targetProxy = 446B2C1C20F7A41C00CDE450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		446B2C0320F7A41B00CDE450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446B2C0420F7A41B00CDE450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		446B2C0820F7A41B00CDE450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446B2C0920F7A41B00CDE450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446B2C2220F7A41C00CDE450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		446B2C2320F7A41C00CDE450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446B2C2520F7A41C00CDE450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85CCCB5BD4DEEC250627998 /* Pods-stashTakeHomeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stashTakeHomeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		446B2C2620F7A41C00CDE450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCBA6ABDE246B9DD950B588 /* Pods-stashTakeHomeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stashTakeHomeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		446B2C2820F7A41C00CDE450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F6173CF4344AB74286B284 /* Pods-stashTakeHomeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stashTakeHomeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stashTakeHomeChallenge.app/stashTakeHomeChallenge";
+			};
+			name = Debug;
+		};
+		446B2C2920F7A41C00CDE450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12042DA19923EC6109E3189D /* Pods-stashTakeHomeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stashTakeHomeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stashTakeHomeChallenge.app/stashTakeHomeChallenge";
+			};
+			name = Release;
+		};
+		446B2C2B20F7A41C00CDE450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF548105E7D148C849180C28 /* Pods-stashTakeHomeChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = stashTakeHomeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = stashTakeHomeChallenge;
+			};
+			name = Debug;
+		};
+		446B2C2C20F7A41C00CDE450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C53BBDB11C2AD7C9E4FFE2 /* Pods-stashTakeHomeChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = stashTakeHomeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.stashTakeHomeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = stashTakeHomeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446B2BF720F7A41B00CDE450 /* Build configuration list for PBXProject "stashTakeHomeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B2C2220F7A41C00CDE450 /* Debug */,
+				446B2C2320F7A41C00CDE450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B2C2420F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B2C2520F7A41C00CDE450 /* Debug */,
+				446B2C2620F7A41C00CDE450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B2C2720F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B2C2820F7A41C00CDE450 /* Debug */,
+				446B2C2920F7A41C00CDE450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B2C2A20F7A41C00CDE450 /* Build configuration list for PBXNativeTarget "stashTakeHomeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B2C2B20F7A41C00CDE450 /* Debug */,
+				446B2C2C20F7A41C00CDE450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446B2BF420F7A41B00CDE450 /* Project object */;
+}

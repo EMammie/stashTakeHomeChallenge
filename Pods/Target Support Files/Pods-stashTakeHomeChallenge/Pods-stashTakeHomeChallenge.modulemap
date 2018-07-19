@@ -1,0 +1,6 @@
+framework module Pods_stashTakeHomeChallenge {
+  umbrella header "Pods-stashTakeHomeChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

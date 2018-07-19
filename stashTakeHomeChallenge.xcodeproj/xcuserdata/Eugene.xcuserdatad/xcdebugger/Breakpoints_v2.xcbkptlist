@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+            timestampString = "553627466.200055"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "test_VC_conformsAchievementList_Protocol()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stashTakeHomeChallengeTests.AchievementListViewControllerTests.test_VC_conformsAchievementList_Protocol() -&gt; ()"
+                  moduleName = "stashTakeHomeChallengeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eugene/Desktop/iOS/stashTakeHomeChallenge/stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+                  timestampString = "553725337.950169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "930">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in stashTakeHomeChallengeTests.AchievementListViewControllerTests.test_VC_conformsAchievementList_Protocol() -&gt; ()"
+                  moduleName = "stashTakeHomeChallengeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eugene/Desktop/iOS/stashTakeHomeChallenge/stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+                  timestampString = "553725337.956774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+            timestampString = "553627466.202473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "test_VC_conformsAchievementList_Protocol()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+            timestampString = "553627466.202924"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "test_VC_conformsAchievementList_Protocol()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stashTakeHomeChallengeTests/ViewTests/AchievementListViewControllerTests.swift"
+            timestampString = "553627466.20345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
